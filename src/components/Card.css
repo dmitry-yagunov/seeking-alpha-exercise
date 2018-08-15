@@ -1,0 +1,12 @@
+.buttonUnfollow {
+    background-color: green; 
+}
+
+.buttonUnfollow:hover {
+    background-color: red;
+    color: white;
+}
+
+button .unfollow { display : none; }
+button:hover .unfollow { display : inline; }
+button:hover .following { display : none; }
